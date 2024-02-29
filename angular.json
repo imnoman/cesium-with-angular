@@ -26,16 +26,20 @@
             ],
             "styles": [
               "src/styles.css"
+              
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/cesium/Build/Cesium/Cesium.js"
+
+            ]
           },
           "configurations": {
             "production": {
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "12mb",
+                  "maximumError": "15mb"
                 },
                 {
                   "type": "anyComponentStyle",
